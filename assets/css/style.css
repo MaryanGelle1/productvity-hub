@@ -27,3 +27,123 @@ h2 {
     float: left;
     font-size: 280%;
 }
+
+/* navigation link */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/* add hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.png') no-repeat center center;
+    position: relative;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+    /*Use "linear-gradient" for background effect to the image (hero-image.png). The text will be easy to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.png");
+
+    /* Set height */
+    height: 50%
+}
+
+/* Place text and tagline in the middle of the image */
+.hero-text {
+    font-size: 100%;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    color: #e75480; /* change font color to dark pink */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text h1,
+.hero-text p {
+    border: 4px solid white;
+    padding: 20px 50px;
+    position: relative;
+    border-radius: 10px;
+    font-family: Source Sans Pro, sans-serif;
+    margin: 10px 0;
+}
+
+/* Designing button */
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgba(241, 109, 107, 0.7);
+    text-align: center;
+    cursor: pointer
+}
+
+.hero-text button:hover {
+    background-color: #e75480;
+    color: white;
+}
+
+/* zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
