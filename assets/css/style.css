@@ -67,7 +67,7 @@ html {
 /* add hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
 
@@ -105,6 +105,8 @@ html {
     top:50%;
     left: 50%;
     transform: translate (-50%, -50%);
+
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,11 +115,13 @@ html {
 .hero-text h1,
 .hero-text p {
     border: 4px solid white;
-    padding: 20px 50px;
+    padding: 20px 50px; /* Increase padding to show entire box */
     position: relative;
     border-radius: 10px;
     font-family: Source Sans Pro, sans-serif;
     margin: 10px 0;
+    font-weight: bold; /* Add bold font weight */
+    color: #e75480; /* Change font color to dark pink */
 }
 
 /* Designing button */
