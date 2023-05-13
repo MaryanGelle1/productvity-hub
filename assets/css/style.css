@@ -375,7 +375,7 @@ footer {
 }
 
 .form-section .feedback-input {
-    color: white;
+    color: #3a3a3a;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -402,13 +402,13 @@ footer {
 }
 
 .form-section [type="submit"] {
-    font-family: Source Sans Pro, sans-serif;;
+    font-family: Source Sans Pro, sans-serif;
     width: 100%;
-    background: #CC6666;
+    background: CC6666;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
-    color: white;
+    color: #3a3a3a;
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
