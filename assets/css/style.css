@@ -10,6 +10,7 @@ body {
     font-family: Source Sans Pro, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: #fff;
 
 }
 
@@ -64,6 +65,8 @@ body,
 html {
     height: 100%;
 }
+
+
 
 /* add hero image */
 
@@ -395,13 +398,15 @@ footer {
     }
 }
 
-.form-section form {
-    max-width: 420px;
+.form-section {
+    max-width: 500px;
     margin: 50px auto;
     position: relative;
     padding: 200px;
 
 }
+
+
 
 .form-section .feedback-input {
     color: #3a3a3a;
@@ -433,7 +438,8 @@ footer {
 .form-section [type="submit"] {
     font-family: Source Sans Pro, sans-serif;
     width: 100%;
-    background: CC6666;
+    background-color: #CC4949;
+    /* set initial background color to grey */
     border-radius: 5px;
     border: 0;
     cursor: pointer;
@@ -446,6 +452,6 @@ footer {
     font-weight: 700;
 }
 
-.form-section [type="submit"]:hover {
-    background: #CC4949;
+a {
+    scroll-behavior: smooth;
 }
