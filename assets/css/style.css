@@ -244,7 +244,8 @@ hr {
 #article {
     padding: 0 20px;
     /* padding to both sides of the text */
-    margin-top: -380px; /* to make the space appear smaller */
+    margin-top: -380px;
+    /* to make the space appear smaller */
 }
 
 #articles {
@@ -264,6 +265,10 @@ hr {
 #paragraph-2,
 #paragraph-3 {
     margin: 10px;
+}
+
+#paragraph-2 {
+    font-weight: bold;
 }
 
 #article-list {
@@ -395,7 +400,6 @@ footer {
     margin: 50px auto;
     position: relative;
     padding: 200px;
-
 
 }
 
