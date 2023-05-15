@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -298,7 +296,8 @@ hr {
 }
 
 footer {
-    height: 150px;
+
+    height: 140;
     background-color: #ccc;
     color: #fff;
     padding: 20px;
@@ -306,6 +305,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    margin-bottom: 80px;
 
 
 }
@@ -325,6 +325,93 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+.main-content {
+    /* add some padding to the bottom */
+    padding-bottom: 60px;
+}
+
+/* style the footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+article2 {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 40px 0;
+    max-width: 100%;
+}
+
+article2 header {
+    margin: 0;
+}
+
+article h22 {
+    margin-top: 0px;
+
+}
+
+article h52 {
+    margin-top: 0;
+}
+
+#article2 {
+    padding: 0 20px;
+    /* padding to both sides of the text */
+    margin-top: 10px;
+    /* to make the space appear smaller */
+}
+
+#articles2 {
+    margin: 10px;
+    font-size: 28px;
+
+}
+
+#articleh52 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #3a3a3a
+}
+
+#paragraph-12,
+#paragraph-22,
+{
+margin: 10px;
+}
+
+#paragraph-22 {
+    font-weight: bold;
+}
+
+#article-list2 {
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media queries */
 
@@ -358,125 +445,6 @@ footer {
 
     hr {
         display: none;
-    }
-
-    #contact-us {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-
-    }
-
-    #contact-us {
-        Margin: 0;
-        padding: 30px 0;
-
-    }
-
-    #contact-text {
-        width: 100%;
-        height: auto;
-        float: none;
-        margin-top: 0;
-    }
-
-    #contact-map {
-        width: 100%;
-        height: 300px;
-        margin-top: 20px;
-    }
-
-    #contact-text ul {
-        font-size: medium;
-        padding-top: 10%;
-    }
-
-    #contact-us li {
-        padding: 10px;
-        font-size: small;
-    }
-
-
-}
-
-/* for medium screen to small screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    /* menu {
-        clear: left;
-        float: left;THIS COULD BE YOU
-        margin-left: 30px;
-        line-height: 25px;
-    } */
-
-    #cover-text {
-        left: 0;
-    }
-
-    #club-ethos {
-        width: 90px;
-        height: 1200px;
-        margin: 0 auto;
-
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-
-    }
-
-    #contact-us {
-        text-align: center;
-        width: 100%;
-        height: auto;
-        box-sizing: border-box;
-        position: relative;
-        margin-top: 20px;
-        padding: 10px;
-        margin-bottom: 100px;
-    }
-
-    #contact-text {
-        width: 100%;
-        height: auto;
-        float: left;
-        position: relative;
-        box-sizing: border-box;
-        margin-top: 20px;
-        padding: 15px;
-    }
-
-    #contact-text ul {
-        padding-top: 3%;
-        font-size: medium;
-        margin: auto;
-        vertical-align: middle;
-    }
-
-    #contact-us li {
-        padding: 10px;
-        list-style-type: none;
-        font-size: small;
-    }
-
-    #contact-map {
-        width: 100%;
-        height: 300px;
-        margin-top: 20px;
-        float: left;
     }
 
 }
@@ -539,6 +507,64 @@ a {
     scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    /* menu {
+        clear: left;
+        float: left;THIS COULD BE YOU
+        margin-left: 30px;
+        line-height: 25px;
+    } */
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90px;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: center;
+        padding: 0 20px;
+    }
+}
 
 /* Contact us page style */
 
@@ -604,4 +630,223 @@ iframe {
 
 #email-icon:hover {
     transform: scale(1.5, 1.5);
+}
+
+
+/* Contact us page style */
+
+
+#Time-track {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+
+#Tools {
+    width: 50%;
+    height: 450px;
+    float: left;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+#Tools ul {
+    padding-top: 3%;
+    font-size: larger;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#Tools li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+
+/* add hero image */
+
+#tool-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#tool-image {
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+    background: url('..assets/images/tool.image.jpg') no-repeat center center;
+    position: relative;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+    /*Use "linear-gradient" for background effect to the image (hero-image.png). The text will be easy to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.png");
+
+    /* Set height */
+    height: 50%
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .footer-menu ul {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .form-section {
+        padding-top: 100px;
+    }
+
+    .form-section .feedback-input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .form-section textarea {
+        height: 100px;
+    }
+
+    .form-section [type="submit"] {
+        font-size: 18px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #contact-us {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    #contact-us {
+        Margin: 0;
+        padding: 30px 0;
+
+    }
+
+    #contact-text {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 0;
+    }
+
+    #contact-map {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    #contact-text ul {
+        font-size: medium;
+        padding-top: 10%;
+    }
+
+    #contact-us li {
+        padding: 10px;
+        font-size: small;
+    }
+
+}
+
+/* for medium screen to small screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #contact-us {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        position: relative;
+        margin-top: 20px;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+
+    #contact-text {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        float: none;
+        position: relative;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    #contact-us h2 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    #contact-us h2 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+
+    #contact-text ul {
+        padding-top: 3%;
+        font-size: medium;
+        margin: auto;
+        vertical-align: middle;
+    }
+
+    #contact-us li {
+        padding: 10px;
+        list-style-type: none;
+        font-size: small;
+    }
+
+    #contact-map {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        float: none;
+    }
+
+
+}
+
+/* adjust position of h3 for smaller screens */
+@media screen and (max-width: 900px) {
+    #contact-text h3 {
+        position: static;
+        margin-top: 20px;
+    }
 }
