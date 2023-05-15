@@ -339,6 +339,78 @@ footer {
     text-align: center;
 }
 
+
+article2 {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 40px 0;
+    max-width: 100%;
+}
+
+article2 header {
+    margin: 0;
+}
+
+article h22 {
+    margin-top: 0px;
+
+}
+
+article h52 {
+    margin-top: 0;
+}
+
+#article2 {
+    padding: 0 20px;
+    /* padding to both sides of the text */
+    margin-top: 20px;
+    /* to make the space appear smaller */
+}
+
+#articles2 {
+    margin: 10px;
+    font-size: 28px;
+
+}
+
+#articleh52 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #3a3a3a
+}
+
+#paragraph-12,
+#paragraph-22,
+{
+margin: 10px;
+}
+
+#paragraph-22 {
+    font-weight: bold;
+}
+
+#article-list2 {
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media queries */
 
 /* For larger to medium screen size from 1200px wide and down */
