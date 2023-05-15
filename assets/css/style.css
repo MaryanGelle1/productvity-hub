@@ -296,6 +296,7 @@ hr {
 }
 
 footer {
+
     height: 140;
     background-color: #ccc;
     color: #fff;
@@ -304,6 +305,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    margin-bottom: 80px;
 
 
 }
@@ -363,7 +365,7 @@ article h52 {
 #article2 {
     padding: 0 20px;
     /* padding to both sides of the text */
-    margin-top: 20px;
+    margin-top: 10px;
     /* to make the space appear smaller */
 }
 
@@ -707,7 +709,7 @@ iframe {
 
 @media screen and (max-width: 1200px) {
     .footer-menu ul {
-        display: fixed;
+        display: block;
         margin-top: 10px;
         margin-bottom: 40px;
     }
